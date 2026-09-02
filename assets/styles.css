@@ -1,0 +1,160 @@
+﻿/* ================================================================
+   NEPSE ANALYSIS PLATFORM — DASHBOARD V2
+   PROFESSIONAL FINANCIAL DASHBOARD THEME
+   ================================================================ */
+
+
+/* ------------------------------------------------
+   GLOBAL APPLICATION
+------------------------------------------------ */
+
+.stApp {
+    background-color: #f5f7fb;
+}
+
+
+/* Main content */
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1450px;
+}
+
+
+/* ------------------------------------------------
+   TYPOGRAPHY
+------------------------------------------------ */
+
+.dashboard-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.25rem;
+}
+
+.dashboard-subtitle {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+}
+
+.section-title {
+    font-size: 1.15rem;
+    font-weight: 650;
+    color: #1f2937;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+
+/* ------------------------------------------------
+   SIDEBAR
+------------------------------------------------ */
+
+[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+[data-testid="stSidebar"] * {
+    color: #e5e7eb;
+}
+
+[data-testid="stSidebarNav"] {
+    padding-top: 1rem;
+}
+
+
+/* Sidebar navigation */
+
+[data-testid="stSidebarNav"] a {
+    border-radius: 8px;
+    margin: 2px 8px;
+    padding: 8px 10px;
+}
+
+[data-testid="stSidebarNav"] a:hover {
+    background-color: #1f2937;
+}
+
+
+/* ------------------------------------------------
+   METRICS
+------------------------------------------------ */
+
+[data-testid="stMetric"] {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #6b7280;
+    font-size: 0.85rem;
+}
+
+[data-testid="stMetricValue"] {
+    color: #111827;
+    font-weight: 700;
+}
+
+
+/* ------------------------------------------------
+   DATAFRAMES / TABLES
+------------------------------------------------ */
+
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+}
+
+
+/* ------------------------------------------------
+   BUTTONS
+------------------------------------------------ */
+
+.stButton > button {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+/* ------------------------------------------------
+   INPUTS
+------------------------------------------------ */
+
+.stTextInput input,
+.stSelectbox div,
+.stMultiSelect div {
+    border-radius: 8px;
+}
+
+
+/* ------------------------------------------------
+   DIVIDERS
+------------------------------------------------ */
+
+hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* ------------------------------------------------
+   RESPONSIVE ADJUSTMENTS
+------------------------------------------------ */
+
+@media (max-width: 768px) {
+
+    .block-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .dashboard-title {
+        font-size: 1.6rem;
+    }
+
+}
